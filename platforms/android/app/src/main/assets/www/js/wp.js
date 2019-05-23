@@ -3,7 +3,7 @@ $(document).ready(function()
   wordpress();
 
   $.ajax({
-    url: 'https://flatmetalpatterns.com//wp-json/wc/v3/products/categories?hide_empty=true&per_page=50', // Your store URL
+    url: 'https://flatmetalpatterns.com//wp-json/wc/v3/products/categories?hide_empty=true&per_page=100', // Your store URL
     beforeSend: function (xhr) {
       xhr.setRequestHeader ("Authorization", "Basic " + btoa('ck_6c880a08127e1d1162a072be2cf92f673d5f25ef:cs_93587543facd8c03616bd2f6256415e809dc791f'));
     },

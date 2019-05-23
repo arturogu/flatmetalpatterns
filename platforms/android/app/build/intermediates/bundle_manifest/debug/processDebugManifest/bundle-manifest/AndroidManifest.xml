@@ -3,7 +3,7 @@
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.flatmetalpatterns.app"
     android:hardwareAccelerated="true"
-    android:versionCode="65"
+    android:versionCode="66"
     android:versionName="1.0.0" >
 
     <uses-sdk
